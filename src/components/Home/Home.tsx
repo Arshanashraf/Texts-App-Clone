@@ -20,6 +20,7 @@ const Home = () => {
         <div className='floating3'><img src={Img3} alt="" /></div>
         <div className='floating4'><img src={Img2} alt="" /></div>
         </div>
+        <div>a</div>
 
     </div>
   )
