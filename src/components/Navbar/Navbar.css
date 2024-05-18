@@ -1,0 +1,31 @@
+.logo{
+    font-size: 48px;
+    font-weight: 700;
+}
+.logo img{
+    height: 56px;
+    padding-right: 14px;
+    margin-top: -10px;
+}
+.container{
+    margin: 0px;
+    padding: 0px;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.nav{
+    font-size: 18px;
+    font-weight: 700;
+    color: black !important;
+}
+@media (max-width: 650px){
+    .nav{
+        display: none;
+    }
+}

@@ -1,0 +1,77 @@
+.homeContent{
+    align-items: center;
+    text-align: center;
+}
+.homeContent h1{
+    font-size: 72px;
+    font-weight: 700;
+    margin-bottom: 90px;
+    margin-top: 50px;
+    
+}
+h1 span{
+    color: #2563EB;
+}
+.download{
+    text-decoration: none;
+    background: linear-gradient(rgb(66, 95, 242), rgb(103, 157, 255));
+    color: #fff;
+    padding: 1rem 2rem;
+    font-size: 18px;
+    font-weight: 400;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 8px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    margin-top: 150px;
+}
+.download:hover{
+    color: #fff;
+}
+.homeContent p{
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 30px;
+}
+.homeContent p a{
+    color: #0F172A;
+    text-decoration: none;
+    padding-left: 10px;
+}
+
+.floatingImages img{
+    width: 170px;
+}
+.floating1{
+    position: absolute;
+    top: 17%;
+    left: 10%;
+    z-index: -1;
+    animation: float 5s ease-out infinite;
+}
+.floating2{
+    z-index: -1;
+    position: absolute;
+    top: 26%;
+    right: 15%;
+    
+    animation: float 5s ease-out infinite;
+}
+.floating3{
+    z-index: -1;
+    position: absolute;
+    top: 52%;
+    left: 25%;
+    animation: float 5s ease-out infinite;
+}
+.floating4{
+    z-index: -1;
+    position: absolute;
+    top: 65%;
+    right: 30%;
+    animation: float 5s ease-out infinite;
+}
+@keyframes float{
+    50%{
+        transform: translateY(30px);    }
+}
