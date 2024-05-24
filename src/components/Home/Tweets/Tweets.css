@@ -1,0 +1,161 @@
+.tweetContent h2{
+    margin-top: 230px;
+    margin-bottom: 0;
+    /* padding: 0; */
+}
+.tweetContent{
+    text-align: center;
+    /* height: auto; */
+}
+.goobtn{
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.goobtn a{
+    text-decoration: none;
+    background: linear-gradient(rgb(66, 95, 242), rgb(103, 157, 255));
+    color: #fff !important;
+    padding: 1rem 2rem;
+    font-size: 18px;
+    font-weight: 400;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 8px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.ebtn a{
+    color: #0F172A;
+    text-decoration: none;
+    font-size: 14px;
+}
+.ebtn a:hover{
+    text-decoration: underline;
+}
+.tweetContent p{
+    font-size: 12px;
+    color: #64748B;
+    margin: 2rem 24rem;
+}
+.tweetContent p span{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.tweetContent p span:hover{
+    color: #0F172A;
+}
+
+.propic img{
+    width: 36px;
+    border-radius: 50%;
+}
+.proname{
+    line-height: 2px;
+}
+.proname h5{
+    font-size: 16px;
+    font-weight: 700;
+}
+.proname p{
+    font-size: 14px;
+    font-weight: 400;
+    color: #697882;
+}
+.x{
+    font-size: 22px;
+    margin-left: 70px;
+    margin-top: -7px;
+    cursor: pointer;
+}
+.x2{
+    margin-left: 80px;
+}
+.x3{
+    margin-left: 150px;
+}
+.x4{
+    margin-left: 60px;
+}
+.x5{
+    margin-left: 120px;
+}
+.x6,
+.x8,
+.x9{
+    margin-left: 100px;
+}
+
+.tweethead{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-top: 20px;
+    margin-left: 13px;
+    /* margin: 0rem 0rem; */
+}
+.tweetcard1{
+    width: 330px ;
+    
+}
+.tweetcard1a{
+    border-radius: 15px;
+    border-color: #eeeeee;
+}
+.heart{
+    font-size: 15px;
+    margin-top: -5px;
+    color: #64748B !important;
+    cursor: pointer;
+}
+.heart:hover{
+    color: red !important;
+}
+.heart span{
+    font-size: 14px;
+   
+}
+.screenshots{
+    display: flex;
+    flex-direction: row;
+}
+.tweetpara span{
+    margin-left: 70px;
+}
+.SS img{
+    width: 145px;
+    border-radius: 0px;
+    margin-bottom: 15px;
+}
+.tweetpara1 span{
+    margin-left: 2px;
+    cursor: pointer;
+}
+.tweetpara1 span:hover{
+    text-decoration: underline;
+}
+.SS1 img{
+    border-radius: 0%;
+    margin-bottom: 15px;
+}
+.tweetcards{
+    width: 1000px;
+    margin-top: 70px;
+    margin-left: 150px;
+}
+
+.tweetcard2{
+    margin-bottom: 10px;
+}
+.tweetcard4{
+    margin-top: -70px;
+    margin-bottom: 10px;
+}
+.tweetcard6{
+    margin-top: -30px;
+}
+.tweetcard8{
+    margin-top: -85px;
+}
+.tweetcard9{
+    margin-top: -180px;
+}

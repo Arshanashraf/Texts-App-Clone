@@ -1,0 +1,25 @@
+.privacy{
+    margin-top: 260px;
+}
+.privacyContent{
+    text-align: center;
+    /* height: 2px; */
+    margin-top: -900px;
+    /* background-color: black; */
+}
+.privacyItems{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+    margin-top: -50px;
+    margin-left: 250px;
+}
+.privacyIcon img{
+    background-color: #2563EB;
+    padding: 1.5rem 1.5rem;
+    border-radius: 50%;
+}
+.pi1{
+    margin-right: 50px;
+}

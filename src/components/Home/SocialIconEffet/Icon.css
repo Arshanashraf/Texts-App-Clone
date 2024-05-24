@@ -1,0 +1,68 @@
+.iconMain{
+    text-align: center;
+    margin-top: 400px;
+    z-index: 100;
+}
+.socialIcons img{
+    height: 50px;
+}
+.discord{
+    position: absolute;
+    top: 1100px;
+    left: 180px;
+    z-index: -2;
+}
+.insta{
+    position: absolute;
+    top: 1100px;
+    right: 650px;
+    z-index: -2;
+}
+.linkedIn{
+    position: absolute;
+    top: 1130px;
+    left: 450px;
+    z-index: -3;
+}
+.messenger{
+    position: absolute;
+    top: 1140px;
+    right: 650px;
+    z-index: -2;
+}
+.signal{
+    position: absolute;
+    top: 1220px;
+    right: 650px;
+    z-index: -2;
+}
+.slack{
+    position: absolute;
+    top: 1270px;
+    right: 620px;
+    z-index: -2;
+}
+.telegram{
+    position: absolute;
+    top: 1270px;
+    left: 200px;
+    z-index: -2;
+}
+.whatsapp{
+    position: absolute;
+    top: 1270px;
+    left: 20px;
+    z-index: -1;
+}
+.twitter{
+    position: absolute;
+    top: 1270px;
+    left: 60px;
+    z-index: -3;
+}
+.imessage{
+    position: absolute;
+    top: 1100px;
+    left: 120px;
+    z-index: -1;
+}

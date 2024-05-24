@@ -37,6 +37,7 @@ h1 span{
     color: #0F172A;
     text-decoration: none;
     padding-left: 10px;
+    z-index: 100;
 }
 
 .floatingImages img{
@@ -74,4 +75,50 @@ h1 span{
 @keyframes float{
     50%{
         transform: translateY(30px);    }
+}
+
+h2{
+    text-align: center;
+    font-weight: 500;
+    font-size: 48px;
+    margin-bottom: 1000px;
+}
+
+.allicons{
+    margin-top: 20px;
+    margin-bottom: 100px;
+    text-align: center;
+    align-items: center;
+}
+.allicons h5{
+    color: #111016;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 60px;
+}
+.icons2 {
+    width: 90px;
+    margin-bottom: 40px;
+}
+.icons2 img{
+    width: 60px;
+}
+/* .icons2a{
+    margin-top: 40px;
+    margin-left: 165px;
+} */
+.icons2 p{
+    margin-top: 10px;
+    color: #111016;
+    font-size: 14px;
+    font-weight: 400;
+}
+.iconall{
+    /* display: flex; */
+    width: 750px;
+    margin-left: 320px;
+    line-height: 30px;
+}
+.icons2a{
+    margin-left: 135px;
 }
